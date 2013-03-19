@@ -1,0 +1,16 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4478
+
+  This plugin can...
+
+  * Run a specified shell command on an entire buffer.
+  * Run a specified shell command for a selection.
+  * Watch for changes in the buffer and run a shell command automatically.
+
+Other than the installation steps, this plugin requires no additional configuration to get started. When <Leader>r or :WatchBuffer is run, the plugin will ask for the shell command to associate with the current buffer.
+
+A lot of things in the plugin are configurable including the events which trigger the live preview. This plugin can also remember the entered shell command for future use.
+
+Check out the Github page for more details with screenshots.
+
+==============================
+https://github.com/notalex/vim-run-live
